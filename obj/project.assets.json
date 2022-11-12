@@ -11879,11 +11879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leade\\source\\repos\\SiteForAtelieRazorNetCore\\SiteForAtelieRazorNetCore\\SiteForAtelieRazorNetCore.csproj",
+      "projectUniqueName": "C:\\Users\\leade\\source\\repos\\Site-For-Atelie-Razor-NetCore-master\\SiteForAtelieRazorNetCore.csproj",
       "projectName": "SiteForAtelieRazorNetCore",
-      "projectPath": "C:\\Users\\leade\\source\\repos\\SiteForAtelieRazorNetCore\\SiteForAtelieRazorNetCore\\SiteForAtelieRazorNetCore.csproj",
+      "projectPath": "C:\\Users\\leade\\source\\repos\\Site-For-Atelie-Razor-NetCore-master\\SiteForAtelieRazorNetCore.csproj",
       "packagesPath": "C:\\Users\\leade\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leade\\source\\repos\\SiteForAtelieRazorNetCore\\SiteForAtelieRazorNetCore\\obj\\",
+      "outputPath": "C:\\Users\\leade\\source\\repos\\Site-For-Atelie-Razor-NetCore-master\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

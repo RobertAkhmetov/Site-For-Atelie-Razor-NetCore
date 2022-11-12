@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - SiteForAtelieRazorNetCore</title>
+    <title>@ViewData["Title"] - Guli</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -16,8 +16,8 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
-<body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+<body style="background-color: #310062; ">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #3d0f57; ">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -26,25 +26,28 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-page="/Index" class="navbar-brand">SiteForAtelieRazorNetCore</a>
+                <a asp-page="/Index" class="navbar-brand" style="color: #ffffff;">Ателье Guli</a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="nav navbar-nav navbar-right">
                 <ul class="nav navbar-nav">
-                    <li><a asp-page="/Index">Home</a></li>
-                    <li><a asp-page="/About">About</a></li>
-                    <li><a asp-page="/Contact">Contact</a></li>
+                    <li><a asp-page="/Index" style="color: #ffffff;">Главная</a></li>
+                    <li><a asp-page="/Prices" style="color: #ffffff;">Цены</a></li>
+                    <li><a asp-page="/About" style="color: #ffffff;">О нас</a></li>
+                    <li><a asp-page="/Contact" style="color: #ffffff;">Контакты</a></li>
                 </ul>
+                <button class="btn btn-danger navbar-btn">Заказать звонок</button>
+                <button class="btn btn-danger navbar-btn" style="background-color: #5b92e5;">Записаться онлайн</button>
             </div>
         </div>
     </nav>
 
     <partial name="_CookieConsentPartial" />
 
-    <div class="container body-content">
+    <div class="container body-content" style="color: white">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2022 - SiteForAtelieRazorNetCore</p>
+            <p>2023 - Guli &copy; все права защищены </p>
         </footer>
     </div>
 
